@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/backend/static/style.css">
+</head>
+
+<body>
+    <h1>Library Management System</h1>
+
+    <div class="section" id="users-section">
+        <h2>Users</h2>
+        <button onclick="fetchUsers()">Load Users</button>
+        <ul id="users-list"></ul>
+    </div>
+
+    <div class="section" id="books-section">
+        <h2>Books</h2>
+        <button onclick="fetchBooks()">Load Books</button>
+        <ul id="books-list"></ul>
+    </div>
+
+    <div class="section" id="borrows-section">
+        <h2>Borrows</h2>
+        <button onclick="fetchBorrows()">Load Borrows</button>
+        <ul id="borrows-list"></ul>
+    </div>
+
+</body>
+
+</html>
